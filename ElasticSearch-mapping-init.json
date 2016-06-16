@@ -1,0 +1,176 @@
+PUT profile
+{
+  "mappings": {
+    "user": {
+      "properties": {
+        "AWARDS": {
+          "properties": {
+            "COMPANY": {
+              "type": "string"
+            },
+            "DATE": {
+              "type": "string"
+            },
+            "DESCRIPTION": {
+              "type": "string"
+            },
+            "NAME": {
+              "type": "string"
+            }
+          }
+        },
+        "BRIEF_CURRENT": {
+          "properties": {
+            "NAME": {
+              "type": "string"
+            },
+            "URL": {
+              "type": "string"
+            }
+          }
+        },
+        "BRIEF_EDUCATION": {
+          "properties": {
+            "NAME": {
+              "type": "string"
+            },
+            "URL": {
+              "type": "string"
+            }
+          }
+        },
+        "BRIEF_PREVIOUS": {
+          "properties": {
+            "NAME": {
+              "type": "string"
+            },
+            "URL": {
+              "type": "string"
+            }
+          }
+        },
+        "CONNECTIONS": {
+          "type": "string"
+        },
+        "EDUCATION": {
+          "properties": {
+            "DATE": {
+              "type": "string"
+            },
+            "DEGREE": {
+              "type": "string"
+            },
+            "DESCRIPTION": {
+              "type": "string"
+            },
+            "IMG": {
+              "type": "string"
+            },
+            "NAME": {
+              "type": "string"
+            },
+            "URL": {
+              "type": "string"
+            }
+          }
+        },
+        "EXPERIENCE": {
+          "properties": {
+            "COMPANY": {
+              "type": "string"
+            },
+            "COMPANY_URL": {
+              "type": "string"
+            },
+            "DATE": {
+              "type": "string"
+            },
+            "DESCRIPTION": {
+              "type": "string"
+            },
+            "IMG": {
+              "type": "string"
+            },
+            "TITLE": {
+              "type": "string"
+            },
+            "TITLE_URL": {
+              "type": "string"
+            }
+          }
+        },
+        "GROUPS": {
+          "properties": {
+            "IMG": {
+              "type": "string"
+            },
+            "NAME": {
+              "type": "string"
+            },
+            "URL": {
+              "type": "string"
+            }
+          }
+        },
+        "IMAGE": {
+          "type": "string"
+        },
+        "INDUSTRY": {
+          "type": "string"
+        },
+        "LANGUAGES": {
+          "properties": {
+            "LEVEL": {
+              "type": "string"
+            },
+            "NAME": {
+              "type": "string"
+            }
+          }
+        },
+        "LOCATION": {
+          "type": "string"
+        },
+        "NAME": {
+          "type": "string"
+        },
+        "RECOMMENDATIONS_NUMBER": {
+          "type": "integer",
+          "null_value": 0
+        },
+        "RELATED": {
+          "properties": {
+            "IMG": {
+              "type": "string"
+            },
+            "NAME": {
+              "type": "string"
+            },
+            "URL": {
+              "type": "string"
+            },
+            "VALUE": {
+              "type": "string"
+            }
+          }
+        },
+        "SKILLS": {
+          "properties": {
+            "NAME": {
+              "type": "string"
+            },
+            "URL": {
+              "type": "string"
+            }
+          }
+        },
+        "SUMMARY": {
+          "type": "string"
+        },
+        "TITLE": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
